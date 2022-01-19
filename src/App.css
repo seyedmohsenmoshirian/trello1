@@ -1,0 +1,898 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 98.5vw;
+  min-height: 200vh;
+  background: linear-gradient(0deg, #fff, #eae6ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: 68.25px;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Trello_Logo {
+  width: 126px;
+  height: 36px;
+}
+.nav_bottoms {
+  width: 152.14px;
+  height: 36.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_buttom {
+  color: #0065ff;
+  padding: 4px 8px;
+  font-size: 1.09375rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  border: 1px solid inherit;
+}
+.signup_bottom {
+  color: white;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.09375rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  background-color: #0065ff;
+}
+.hero_box {
+  width: 540px;
+  height: 368px;
+  padding: 0px 15px;
+}
+
+.hero_box_tittle {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Charlie_Display", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 41px;
+}
+.hero_box_discription {
+  margin-bottom: 1.5rem;
+  font-family: "Charlie_Text", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.hero_box_signup_button_container {
+  margin-top: 44px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* padding: 0px 15px; */
+}
+
+.hero_box_signup_button {
+  color: white;
+  width: 500px;
+  height: 44px;
+  background-color: #0065ff;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+}
+
+.one {
+  width: 480px;
+  height: 368px;
+}
+
+.two {
+  margin: 25px;
+  margin-top: 85px;
+  font-family: "Charlie_Display", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.three {
+  margin-top: -25px;
+  text-align: center;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: 500;
+}
+.four {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.five {
+  color: #0065ff;
+  width: 150px;
+  height: 50px;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border-color: #0065ff;
+  border-radius: 6px;
+}
+.jjj {
+  width: 500px;
+  height: 400px;
+}
+button:hover {
+  background-color: rgb(64, 160, 238);
+}
+.zireaks {
+  display: flex;
+  text-align: center;
+  font-family: "Charlie_Text", sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  width: 560px;
+  height: 100px;
+}
+
+.arm {
+  position: relative;
+}
+.google_logo {
+  position: absolute;
+  right: 150px;
+}
+.logo2 {
+  position: absolute;
+  right: 30px;
+}
+
+.logo3 {
+  position: absolute;
+  left: -20px;
+  padding-top: 11px;
+}
+.logo4 {
+  position: absolute;
+  left: 150px;
+}
+.qwe {
+  display: none;
+}
+.aksvasat {
+  width: 560px;
+  height: 400px;
+}
+.zireaks_one {
+  margin-top: 150px;
+  text-align: left;
+  font-family: "Charlie_Text", sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  width: 560px;
+  height: 100px;
+}
+
+.zireaks_two {
+  font-size: 1.5rem;
+}
+.aksecopy {
+  padding-top: 75px;
+}
+.AXSone {
+  width: 500px;
+  height: 400px;
+}
+.AXStwo {
+  width: 500px;
+  height: 400px;
+}
+.zireaksdovom {
+  line-height: 1.25;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 1rem;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.zireaksdovomone {
+  line-height: 1.25;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 1rem;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.zireaksdovomtwo {
+  line-height: 1.25;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 1rem;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.zireaksdovomm {
+  padding-top: 5px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.33333333;
+  font-weight: bold;
+}
+.zireaksdovommone {
+  padding-top: 5px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.33333333;
+  font-weight: bold;
+}
+.zireaksdovommtwo {
+  padding-top: 5px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.33333333;
+  font-weight: bold;
+}
+.zireaksdovommm {
+  padding-top: 10px;
+  color: #7a869a;
+}
+.zireaksdovommmtwo {
+  padding-top: 10px;
+  color: #7a869a;
+}
+.zireaksdovommmone {
+  padding-top: 10px;
+  color: #7a869a;
+}
+.zireaksdovommmm {
+  padding-top: 20px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.zireaksdovommmmone {
+  padding-top: 20px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.zireaksdovommmmtwo {
+  padding-top: 20px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.AXS {
+  padding-top: 120px;
+}
+.hero_box_email_input {
+  display: none;
+}
+
+.AXSsevomm {
+  width: 500px;
+  height: 400px;
+}
+.zireaksdovomsevom {
+  line-height: 1.25;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 1rem;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.zireaksdovommsevom {
+  padding-top: 5px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.33333333;
+  font-weight: bold;
+}
+
+.zireaksdovommmsevom {
+  padding-top: 10px;
+  color: #7a869a;
+}
+
+.zireaksdovommmmsevom {
+  padding-top: 20px;
+  font-family: "Charlie_Text", sans-serif;
+  font-weight: bold;
+}
+.ggg {
+  position: relative;
+  top: 80px;
+  background: black;
+}
+.zxc {
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+}
+.zxcone {
+  position: relative;
+  top: 120px;
+}
+.zxcdovomm {
+  border-color: rgb(66, 82, 226);
+
+  width: 170px;
+  height: 39px;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 150px;
+  font-size: 1.09375rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  color: #0065ff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #0065ff;
+}
+.zxc3 {
+  position: relative;
+  top: 180px;
+  font-weight: bold;
+}
+.zxcone1 {
+  position: relative;
+  top: 190px;
+}
+.zxcdovomoo {
+  width: 170px;
+  height: 39px;
+  background-color: white;
+  border-color: rgb(68, 167, 224);
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 220px;
+  font-size: 1.09375rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  color: #0065ff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #0065ff;
+}
+.gggg {
+  position: relative;
+  top: 250px;
+  background: black;
+}
+.poi {
+  background: #e6fcff;
+  width: 142%;
+  height: 800px;
+  position: relative;
+  margin-left: -110px;
+
+  top: 300px;
+}
+.ebay {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  left: 40%;
+  top: 80px;
+}
+.uio {
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  left: 180px;
+  font-size: 35px;
+  top: 200px;
+}
+.uioo {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  left: 310px;
+  font-size: 15px;
+  top: 540px;
+  font-weight: bold;
+}
+.ff {
+  position: relative;
+  top: 250px;
+  background: black;
+  width: 60%;
+  left: 150px;
+  top: 650px;
+  height: 8px;
+  border-radius: 5px;
+}
+.tyu {
+  background-color: #2d5497;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  position: relative;
+  top: 680px;
+  left: 220px;
+}
+.tyuone {
+  background-color: #2d5497;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  position: relative;
+  top: 685px;
+  left: 260px;
+}
+.tyutwo {
+  background-color: #2d5497;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  position: relative;
+  top: 685px;
+  left: 300px;
+}
+.tyuthree {
+  background-color: #2d5497;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  position: relative;
+  top: 685px;
+  left: 340px;
+}
+.tyuonee {
+  background-color: #2d5497;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  position: relative;
+  top: 680px;
+  left: 380px;
+}
+.asdo {
+  background: blueviolet;
+  width: 500px;
+  height: 250px;
+  position: relative;
+  left: 14px;
+  top: 350px;
+  border-radius: 15px;
+}
+.asd {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.mju {
+  background-color: #00b8d9;
+  border-color: #00b8d9;
+  border: none;
+  border-radius: 3px;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  color: white;
+}
+.fty {
+  background-color: whitesmoke;
+  width: 144%;
+  height: 500px;
+  position: relative;
+  margin-left: -120px;
+  top: 400px;
+}
+@media only screen and (min-width: 768px) {
+  .hero_box {
+    width: 720px;
+    height: 368px;
+    padding: 0px 15px;
+  }
+  .hero_box_tittle {
+    padding-right: 100px;
+    font-size: 45px;
+    text-align: left;
+  }
+  .hero_box_discription {
+    text-align: left;
+  }
+  .hero_box_signup_button_container {
+    margin-top: 44px;
+    width: 100%;
+  }
+  .hero_box_signup_button {
+    color: white;
+    width: 300px;
+    height: 44px;
+  }
+  .hero_box_email_input {
+    display: flex;
+    width: 400px;
+    height: 45px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  .email_input {
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  .one {
+    width: 800px;
+    height: 368px;
+  }
+
+  .two {
+    margin: 25px;
+    margin-top: 200px;
+    font-family: "Charlie_Display", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+  }
+  .three {
+    margin: 85px;
+    margin-top: -25px;
+    text-align: center;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: 500;
+  }
+  .five {
+    margin-top: -50px;
+    color: #0065ff;
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    border-color: #0065ff;
+    border-radius: 6px;
+  }
+
+  .aksvasat {
+    margin-top: 150px;
+    width: 700px;
+    height: 500px;
+  }
+  .zireaks {
+    display: flex;
+    text-align: center;
+    font-family: "Charlie_Text", sans-serif;
+    font-size: 20px;
+    width: 720px;
+    height: 100px;
+  }
+  .zireaks_two {
+    font-size: 2.1rem;
+    text-align: left;
+    margin-left: -60px;
+  }
+  .hhh {
+    margin-left: -60px;
+    width: 700px;
+  }
+
+  .google_logo {
+    position: absolute;
+    right: 200px;
+  }
+  .logo2 {
+    position: absolute;
+    right: 60px;
+  }
+  .logo3 {
+    position: absolute;
+    left: -30px;
+    padding-top: 11px;
+  }
+  .logo4 {
+    position: absolute;
+    left: 180px;
+  }
+
+  .zireaks_one {
+    font-family: "Charlie_Text", sans-serif;
+    font-size: 20px;
+    position: relative;
+  }
+
+  .jjj {
+    position: absolute;
+    margin-left: -60px;
+    width: 300px;
+    height: 200px;
+  }
+  .AXSone {
+    position: absolute;
+    margin-left: -60px;
+    width: 300px;
+    height: 200px;
+    left: 400px;
+    top: 700px;
+  }
+  .zireaksdovom {
+    line-height: 1.25;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 250px;
+    top: -45px;
+  }
+  .zireaksdovomm {
+    width: 300px;
+    padding-top: 5px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 1.33333333;
+    font-weight: bold;
+    position: absolute;
+    left: 265px;
+    top: 290px;
+  }
+  .zireaksdovommm {
+    width: 400px;
+    height: 20px;
+    padding-top: 10px;
+    color: #7a869a;
+    position: absolute;
+    left: 265px;
+    top: 370px;
+  }
+  .zireaksdovommmm {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 265px;
+    top: 540px;
+  }
+  .AXS {
+  }
+
+  button:hover {
+    background-color: rgb(64, 160, 238);
+  }
+  .zireaksdovomone {
+    line-height: 1.25;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -60px;
+    top: 210px;
+  }
+  .zireaksdovommone {
+    width: 400px;
+    padding-top: 5px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 1.33333333;
+    font-weight: bold;
+    position: absolute;
+    left: -45px;
+    top: 740px;
+  }
+  .zireaksdovommmone {
+    width: 400px;
+    height: 20px;
+    padding-top: 10px;
+    color: #7a869a;
+    position: absolute;
+    left: -45px;
+    top: 830px;
+  }
+  .zireaksdovommmmone {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: -50px;
+    top: 1050px;
+  }
+
+  .zireaksdovomtwo {
+    width: 300px;
+    margin-right: 0px;
+    line-height: 1.25;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 250px;
+    top: 510px;
+  }
+  .zireaksdovommtwo {
+    padding-top: 5px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 1.33333333;
+    font-weight: bold;
+    position: absolute;
+    left: 265px;
+    top: 1225px;
+    width: 400px;
+  }
+  .zireaksdovommmtwo {
+    width: 400px;
+    height: 20px;
+    color: #7a869a;
+    position: absolute;
+    left: 265px;
+    top: 1270px;
+  }
+  .zireaksdovommmmtwo {
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 265px;
+    top: 1500px;
+  }
+  .AXStwo {
+    position: absolute;
+    margin-left: -60px;
+    width: 300px;
+    height: 200px;
+    top: 1200px;
+    left: 5px;
+  }
+  .AXSsevomm {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 800px;
+    left: 350px;
+  }
+  .zireaksdovomsevom {
+    line-height: 1.25;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -60px;
+    top: 550px;
+  }
+
+  .zireaksdovommsevom {
+    width: 380px;
+    font-family: "Charlie_Text", sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    position: absolute;
+    left: -45px;
+    top: 1665px;
+  }
+
+  .zireaksdovommmsevom {
+    width: 400px;
+    height: 20px;
+    padding-top: 10px;
+    color: #7a869a;
+    position: absolute;
+    left: -45px;
+    top: 1700px;
+  }
+  .zireaksdovommmmsevom {
+    font-size: 25px;
+    font-family: "Charlie_Text", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: -50px;
+    top: 1900px;
+  }
+  .ggg {
+    position: relative;
+    top: 920px;
+    background: black;
+    width: 660px;
+    left: -60px;
+  }
+  .zxc {
+    position: relative;
+    top: 950px;
+    font-weight: bold;
+    left: -50px;
+  }
+  .zxcone {
+    display: none;
+  }
+  .zxcdovomm {
+    display: none;
+  }
+  .zxc3 {
+    display: none;
+  }
+  .zxcone1 {
+    display: none;
+  }
+  .zxcdovomoo {
+    display: none;
+  }
+  .gggg {
+    display: none;
+  }
+  .poi {
+    display: none;
+  }
+  .ebay {
+    display: none;
+  }
+  .uio {
+    display: none;
+  }
+  .uioo {
+    display: none;
+  }
+  .ff {
+    display: none;
+  }
+  .tyu {
+    display: none;
+  }
+  .tyuone {
+    display: none;
+  }
+  .tyutwo {
+    display: none;
+  }
+  .tyuthree {
+    display: none;
+  }
+  .tyuonee {
+    display: none;
+  }
+  .asdo {
+    display: none;
+  }
+  .asd {
+    display: none;
+  }
+  ..mju {
+    display: none;
+  }
+  .fty {
+    display: none;
+  }
+}
